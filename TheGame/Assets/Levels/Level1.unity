@@ -243,6 +243,7 @@ GameObject:
   - component: {fileID: 102327675}
   - component: {fileID: 102327674}
   - component: {fileID: 102327673}
+  - component: {fileID: 102327677}
   m_Layer: 0
   m_Name: Paddle_2
   m_TagString: Paddles
@@ -352,6 +353,18 @@ Transform:
   m_Father: {fileID: 567178726}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &102327677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102327672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa2b118bfadf0f4d8492981c5a78993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightpaddle: {fileID: 102327672}
 --- !u!1 &567178724
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +393,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftpaddle: {fileID: 56135574}
-  rightpaddle: {fileID: 102327672}
 --- !u!4 &567178726
 Transform:
   m_ObjectHideFlags: 0

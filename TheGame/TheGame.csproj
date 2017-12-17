@@ -222,9 +222,10 @@
     <Compile Include="Assets\Controls\BallControllers\BallController.cs" />
     <Compile Include="Assets\Controls\BallControllers\BallControllerLevel2.cs" />
     <Compile Include="Assets\Controls\BallControllers\BallControllerLevel3.cs" />
-    <Compile Include="Assets\Controls\PaddleControls\Controls.cs" />
-    <Compile Include="Assets\Controls\PaddleControls\ControlsLevel2.cs" />
-    <Compile Include="Assets\Controls\PaddleControls\ControlsLevel3.cs" />
+    <Compile Include="Assets\Controls\PaddleControls\Left Paddle\Controls.cs" />
+    <Compile Include="Assets\Controls\PaddleControls\Left Paddle\ControlsLevel2.cs" />
+    <Compile Include="Assets\Controls\PaddleControls\Left Paddle\ControlsLevel3.cs" />
+    <Compile Include="Assets\Controls\PaddleControls\Right Paddle\MouseControls.cs" />
     <Compile Include="Assets\MenuController.cs" />
     <Compile Include="Assets\ObstructionMovement.cs" />
     <Compile Include="Assets\Scorecount\LevelChanger\LevelChanger1.cs" />

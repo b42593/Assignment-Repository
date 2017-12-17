@@ -29,7 +29,12 @@ public class MenuController : MonoBehaviour {
 
     public void Quit_Game()
     {
+        // If app is built
         Application.Quit();
+        Debug.Log("Game Exiting");
+
+        // in editor exit
+        UnityEditor.EditorApplication.isPlaying = false;
         Debug.Log("Game Exiting");
     }
 }
